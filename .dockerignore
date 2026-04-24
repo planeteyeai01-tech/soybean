@@ -1,0 +1,9 @@
+artifacts/
+__pycache__/
+*.pyc
+*.pkl
+.git
+.gitignore
+soybean_classifier.py
+predict.py
+README.md
