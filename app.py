@@ -4,7 +4,7 @@ Soybean Detection API
 - Trains on startup from data.csv
 - Input: KML file + date  |  Output: Soybean / Non-Soybean
 """
-import warnings, re, pickle
+import warnings, re, pickle, os
 warnings.filterwarnings("ignore")
 
 import numpy as np
