@@ -12,4 +12,4 @@ COPY data.csv .
 
 RUN mkdir -p artifacts
 
-CMD ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
+CMD ["python", "app.py"]
