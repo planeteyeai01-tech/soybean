@@ -6,4 +6,8 @@ numpy==1.26.4
 scikit-learn==1.4.2
 xgboost==2.0.3
 lightgbm==4.3.0
+pystac-client==0.7.7
+planetary-computer==1.0.0
+stackstac==0.5.1
+rioxarray==0.15.5
 requests==2.31.0
