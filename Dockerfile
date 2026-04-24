@@ -9,10 +9,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY app.py .
 COPY data.csv .
-COPY start.sh .
 
-RUN mkdir -p artifacts && chmod +x start.sh
+RUN mkdir -p artifacts
 
-EXPOSE 8000
-
-ENTRYPOINT ["/bin/sh", "start.sh"]
+CMD ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
